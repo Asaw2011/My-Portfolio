@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding-top: 10vh;
+}
+
+.header {
+    background-color: lightgray;
+    box-shadow: seashell;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    background-color: yellow;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    width: 50%;
+    background-color: lightblue;
+}
+
+
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+
+    font-size: 30px;
+    transition: 1s;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+
+li a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    height: 100vh;
+    padding-top: 10vh;
+
+}
+
+.section div {
+    width: 40%
+}
+
+.section .image img {
+    width: 75%;
+    border-radius: 50%;
+    animation-name: profile-animation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes profile-animation {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 75%
+    }
+}
+
+.left {
+    text-align: center;
+}
+
+
+.intro {
+    font-size: 50px;
+
+
+}
+
+.section .left img {
+    width: 80%;
+    height: 50vh;
+}
+
+#education p {
+    font-size: 40px;
+}
+
+#home p {
+    font-size: 40px;
+
+}
+
+#education {
+    height: 90vh;
+
+}
+
+/* ------------------------projects-------------------------------------- */
+
+
+.projects {
+    background-color: yellow;
+}
+
+.python-projects {
+    width: 50%;
+    text-align: center;
+}
+
+.python-projects h1 {
+    background-color: yellow;
+}
+
+.python {
+    width: 100% !important;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-box {
+    width: 200px !important;
+    background-color: grey;
+    border: solid 5px;
+}
+
+.project-box img {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+button:hover {
+    background-color: white;
+    color: black
+}
+
+.webd-projects h1 {
+    background-color: yellow;
+    text-align: center;
+}
+
+.webd-projects {
+    width: 50%;
+    text-align: center;
+}
+
+/* ------------------------------------Contact Us---------------------------------------------- */
+
+.iframe {
+    width: 80%;
+    height: 80vh;
+    padding: 5px;
+    border: 5px;
+    border-radius: 5px;
+}
